@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKataTests.dll" total="41" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-04-06" time="22:31:26">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="OWNER-PC" user="Owner" user-domain="Owner-PC" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKataTests.dll" executed="True" result="Success" success="True" time="0.504" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="CheckoutKataTests" executed="True" result="Success" success="True" time="0.478" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="CheckoutTests" executed="True" result="Success" success="True" time="0.360" asserts="0">
+            <results>
+              <test-case name="CheckoutKataTests.CheckoutTests.Test_Checkout_No_Scan" executed="True" result="Success" success="True" time="0.068" asserts="1" />
+              <test-suite type="ParameterizedTest" name="Test_Multi_Scan_SKU_Total" executed="True" result="Success" success="True" time="0.035" asserts="0">
+                <results>
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_Scan_SKU_Total(&quot;Ac&quot;,&quot;aC&quot;)" executed="True" result="Success" success="True" time="0.027" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_Scan_SKU_Total(&quot;&quot;,&quot;AA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Test_Multi_SKU_Total" executed="True" result="Success" success="True" time="0.055" asserts="0">
+                <results>
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_SKU_Total(&quot;ABCD&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_SKU_Total(&quot;ABCDE&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_SKU_Total(&quot; ABCDE &quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_SKU_Total(&quot;cdcd&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_SKU_Total(&quot;DCBA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_SKU_Total(&quot;Aa&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Multi_SKU_Total(&quot;AB&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Test_Single_SKU_Total" executed="True" result="Success" success="True" time="0.018" asserts="0">
+                <results>
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Single_SKU_Total('C')" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Single_SKU_Total('D')" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Single_SKU_Total('E')" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Single_SKU_Total('A')" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Single_SKU_Total('a')" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutTests.Test_Single_SKU_Total('B')" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CheckoutWithDealTests" executed="True" result="Success" success="True" time="0.038" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="Test_Checkout_With_Applicable_Deal" executed="True" result="Success" success="True" time="0.022" asserts="0">
+                <results>
+                  <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Checkout_With_Applicable_Deal(&quot;AAa&quot;)" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Checkout_With_Applicable_Deal(&quot;AAABBAAA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Checkout_With_Applicable_Deal(&quot;BBCBBDBB&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Checkout_With_Applicable_Deal(&quot;Bb&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Checkout_With_Applicable_Deal(&quot;ABABA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Checkout_With_Applicable_Deal(&quot; BabAax &quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Test_Checkout_With_Applicable_Deal_Multi_Scans" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                <results>
+                  <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Checkout_With_Applicable_Deal_Multi_Scans(&quot;AA&quot;,&quot;AAAA&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Checkout_With_Applicable_Deal_Multi_Scans(&quot;AAB&quot;,&quot;AABAA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="CheckoutKataTests.CheckoutWithDealTests.Test_Multiple_Checkouts" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CheckoutWithMultiLevelDealTests" executed="True" result="Success" success="True" time="0.025" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="Test_Checkout_With_Applicable_Deal" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                <results>
+                  <test-case name="CheckoutKataTests.CheckoutWithMultiLevelDealTests.Test_Checkout_With_Applicable_Deal(&quot;AAAAA&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithMultiLevelDealTests.Test_Checkout_With_Applicable_Deal(&quot;AAAAAA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithMultiLevelDealTests.Test_Checkout_With_Applicable_Deal(&quot;AAA&quot;)" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithMultiLevelDealTests.Test_Checkout_With_Applicable_Deal(&quot;AAAA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Test_Checkout_With_Applicable_Deal_Reversed_In_Setup" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                <results>
+                  <test-case name="CheckoutKataTests.CheckoutWithMultiLevelDealTests.Test_Checkout_With_Applicable_Deal_Reversed_In_Setup(&quot;AAA&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithMultiLevelDealTests.Test_Checkout_With_Applicable_Deal_Reversed_In_Setup(&quot;AAAAAA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithMultiLevelDealTests.Test_Checkout_With_Applicable_Deal_Reversed_In_Setup(&quot;AAAA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CheckoutKataTests.CheckoutWithMultiLevelDealTests.Test_Checkout_With_Applicable_Deal_Reversed_In_Setup(&quot;AAAAA&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CreateDealTests" executed="True" result="Success" success="True" time="0.012" asserts="0">
+            <results>
+              <test-case name="CheckoutKataTests.CreateDealTests.Add_Multi_Level_Deal" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+              <test-case name="CheckoutKataTests.CreateDealTests.Add_Multiple_Deals" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="CheckoutKataTests.CreateDealTests.Add_Single_Deal" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CreateInventoryTests" executed="True" result="Success" success="True" time="0.020" asserts="0">
+            <results>
+              <test-case name="CheckoutKataTests.CreateInventoryTests.Access_Invalid_Stock" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+              <test-case name="CheckoutKataTests.CreateInventoryTests.Access_Stock" executed="True" result="Success" success="True" time="0.002" asserts="6" />
+              <test-case name="CheckoutKataTests.CreateInventoryTests.Add_Duplicated_Stock" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+              <test-case name="CheckoutKataTests.CreateInventoryTests.Add_Multi_Stock" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="CheckoutKataTests.CreateInventoryTests.Add_Stock" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
