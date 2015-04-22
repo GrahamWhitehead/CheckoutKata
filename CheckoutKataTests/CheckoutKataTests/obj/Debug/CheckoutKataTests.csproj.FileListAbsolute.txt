@@ -9,3 +9,14 @@ C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\nunit.frame
 C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.csprojResolveAssemblyReference.cache
 C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.dll
 C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.pdb
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKataTests.dll
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKataTests.pdb
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKata.dll
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\Moq.dll
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\nunit.framework.dll
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKata.pdb
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\Moq.xml
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\nunit.framework.xml
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.csprojResolveAssemblyReference.cache
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.dll
+C:\Git\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.pdb

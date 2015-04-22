@@ -6,3 +6,11 @@ C:\MyApps\CheckoutKata\CheckoutKata\bin\Debug\Moq.xml
 C:\MyApps\CheckoutKata\CheckoutKata\bin\Debug\nunit.framework.xml
 C:\MyApps\CheckoutKata\CheckoutKata\obj\Debug\CheckoutKata.dll
 C:\MyApps\CheckoutKata\CheckoutKata\obj\Debug\CheckoutKata.pdb
+C:\Git\CheckoutKata\CheckoutKata\bin\Debug\CheckoutKata.dll
+C:\Git\CheckoutKata\CheckoutKata\bin\Debug\CheckoutKata.pdb
+C:\Git\CheckoutKata\CheckoutKata\bin\Debug\Moq.dll
+C:\Git\CheckoutKata\CheckoutKata\bin\Debug\nunit.framework.dll
+C:\Git\CheckoutKata\CheckoutKata\bin\Debug\Moq.xml
+C:\Git\CheckoutKata\CheckoutKata\bin\Debug\nunit.framework.xml
+C:\Git\CheckoutKata\CheckoutKata\obj\Debug\CheckoutKata.dll
+C:\Git\CheckoutKata\CheckoutKata\obj\Debug\CheckoutKata.pdb

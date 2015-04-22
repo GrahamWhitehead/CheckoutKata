@@ -12,7 +12,7 @@ namespace CheckoutKataTests
         {
             var inventory = new Inventory();
             Assert.IsTrue (inventory.AddStock('A', "Apple", 10));
-            Assert.AreEqual(1, inventory.StockCount());
+            Assert.AreEqual(1, inventory.ProductCount());
         }
 
         [Test]
@@ -21,7 +21,7 @@ namespace CheckoutKataTests
             var inventory = new Inventory();
             Assert.IsTrue (inventory.AddStock('A', "Apple", 10));
             Assert.IsTrue (inventory.AddStock('B', "Banana", 20));
-            Assert.AreEqual(2, inventory.StockCount());
+            Assert.AreEqual(2, inventory.ProductCount());
         }
 
         [Test]
@@ -30,7 +30,7 @@ namespace CheckoutKataTests
             var inventory = new Inventory();
             Assert.IsTrue (inventory.AddStock('A', "Apple", 10));
             Assert.IsFalse (inventory.AddStock('a', "APPLE", 10));
-            Assert.AreEqual(1, inventory.StockCount());
+            Assert.AreEqual(1, inventory.ProductCount());
         }
 
         [Test]
@@ -39,18 +39,18 @@ namespace CheckoutKataTests
             var inventory = new Inventory();
             Assert.IsTrue (inventory.AddStock('A', "Apple", 10));
             Assert.IsTrue (inventory.AddStock('B', "Banana", 20));
-            Assert.AreEqual(10, inventory.FindStock('A').Price);
-            Assert.AreEqual("Apple", inventory.FindStock('A').Name);
-            Assert.AreEqual(20, inventory.FindStock('B').Price);
-            Assert.AreEqual("Banana", inventory.FindStock('B').Name);
+            Assert.AreEqual(10, inventory.FindProduct('A').Price);
+            Assert.AreEqual("Apple", inventory.FindProduct('A').Name);
+            Assert.AreEqual(20, inventory.FindProduct('B').Price);
+            Assert.AreEqual("Banana", inventory.FindProduct('B').Name);
         }
 
         [Test]
         public void Access_Invalid_Stock()
         {
             var inventory = new Inventory();
-            Assert.AreEqual(0, inventory.StockCount());
-            Assert.IsNull(inventory.FindStock('A'));
+            Assert.AreEqual(0, inventory.ProductCount());
+            Assert.IsNull(inventory.FindProduct('A'));
         }
     }
     
