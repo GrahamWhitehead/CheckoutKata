@@ -1,0 +1,11 @@
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKataTests.dll
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKataTests.pdb
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKata.dll
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\Moq.dll
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\nunit.framework.dll
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\CheckoutKata.pdb
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\Moq.xml
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\bin\Debug\nunit.framework.xml
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.csprojResolveAssemblyReference.cache
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.dll
+C:\MyApps\CheckoutKata\CheckoutKataTests\CheckoutKataTests\obj\Debug\CheckoutKataTests.pdb

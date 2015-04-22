@@ -1,0 +1,8 @@
+C:\MyApps\CheckoutKata\CheckoutKata\bin\Debug\CheckoutKata.dll
+C:\MyApps\CheckoutKata\CheckoutKata\bin\Debug\CheckoutKata.pdb
+C:\MyApps\CheckoutKata\CheckoutKata\bin\Debug\Moq.dll
+C:\MyApps\CheckoutKata\CheckoutKata\bin\Debug\nunit.framework.dll
+C:\MyApps\CheckoutKata\CheckoutKata\bin\Debug\Moq.xml
+C:\MyApps\CheckoutKata\CheckoutKata\bin\Debug\nunit.framework.xml
+C:\MyApps\CheckoutKata\CheckoutKata\obj\Debug\CheckoutKata.dll
+C:\MyApps\CheckoutKata\CheckoutKata\obj\Debug\CheckoutKata.pdb
